@@ -9,6 +9,7 @@ first = True
 node_string = ""
 for node in nodes:
     if not first:
+        #comment added
         node_string += ','
     node_string += '"' + node + ':12345"'
     first = False
